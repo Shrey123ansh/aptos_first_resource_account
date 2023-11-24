@@ -47,14 +47,13 @@ Account 0x23c511682e9290145e174ac4f812f9014bae75d53c4252417a8b146dbe52421a funde
 Aptos CLI is now set up for account 0x23c511682e9290145e174ac4f812f9014bae75d53c4252417a8b146dbe52421a as profile nft-receiver!  Run `aptos --help` for more information about commands
 {
   "Result": "Success"
-}
-ubuntu@ip-172-31-41-25:~$ /home/ubuntu/.local/bin/aptos move create-resource-account-and-publish-package --seed 1235 --address-name mint_nft --profile default --named-addresses source_addr=0x456d5d89173ab5b502fed5ff1de948e3d2b8f0c7a33987be78410c031aa23fc2
-Compiling, may take a little while to download git dependencies...
-{
-  "Error": "Unexpected error: Unable to find package manifest in '/home/ubuntu' or in its parents"
-}
-ubuntu@ip-172-31-41-25:~$
- cd aptos-core/aptos-move/move-examples/mint_nft/2-Using-Resource-Account
+
+
+
+ 
+
+cd aptos-core/aptos-move/move-examples/mint_nft/2-Using-Resource-Account
+
 ubuntu@ip-172-31-41-25:~/aptos-core/aptos-move/move-examples/mint_nft/2-Using-Resource-Account$ /home/ubuntu/.local/bin/aptos move create-resource-account-and-publish-package --seed 1235 --address-name mint_nft --profile default --named-addresses source_addr=0x456d5d89173ab5b502fed5ff1de948e3d2b8f0c7a33987be78410c031aa23fc2
 Compiling, may take a little while to download git dependencies...
 INCLUDING DEPENDENCY AptosFramework
